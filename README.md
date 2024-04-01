@@ -1,6 +1,6 @@
 # How to use on ChatGPT #
 
-1) Download the zip file of this repo.
+1) Download the zip file from this repo.
 2) In ChatGPT attach the zip file
 3) Ask ChatGPT to unzip the file and add /mnt/data/ to system path.
 4) Now ChatGPT should be able to use music21
