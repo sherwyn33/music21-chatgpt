@@ -1,11 +1,13 @@
 # How to use on ChatGPT #
 
 1) Download the zip file from this repo.
-2) Rename the folder inside the zip file to music21
-3) In ChatGPT attach the zip file
+2) Unzip the file and rename the folder that was unzipped from music21-chatgpt-master to music21, then zip the music21 folder.
+3) In ChatGPT attach the music21 zip file (not music21-chatgpt-master.zip)
 4) Ask ChatGPT to unzip the file to /mnt/data/ directly (make sure it doesn't do it to /mnt/data/music21)
 5) Ask ChatGPT to add /mnt/data/ to system path.
 6) Now ChatGPT should be able to use music21
+
+Have a look at this convo on ChatGPT for a worked example - https://chat.openai.com/share/0f90c5ef-3bd8-462a-aec7-725dbdf02a73
 
 P.S. There is already a popular GPT on the ChatGPT store available for free that does the above automatically. It's called Song Maker (https://chat.openai.com/g/g-txEiClD5G-song-maker). It also has some wrapper functions to help with making midi and musicxml files using as little tokens as possible. It also seems to be able to convert midi and musicxml to a text representation for ChatGPT to understand and can create html sheet music.
 
