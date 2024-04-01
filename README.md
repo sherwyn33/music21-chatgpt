@@ -1,8 +1,8 @@
 # How to use on ChatGPT #
 
-1) Download the zip file from this repo.
-2) Unzip the file and rename the folder that was unzipped from music21-chatgpt-master to music21, then zip the music21 folder.
-3) In ChatGPT attach the music21 zip file (not music21-chatgpt-master.zip)
+1) Clone the master branch or download the zip file of the master branch and unzip.
+2) Rename the root folder from music21-chatgpt to music21, then zip the music21 folder.
+3) In ChatGPT attach the music21 zip file (not music21-chatgpt.zip)
 4) Ask ChatGPT to unzip the file to /mnt/data/ directly (make sure it doesn't do it to /mnt/data/music21)
 5) Ask ChatGPT to add /mnt/data/ to system path.
 6) Now ChatGPT should be able to use music21
